@@ -158,12 +158,12 @@ if (canvas) {
 const typingText = document.querySelector('.typing-text');
 if (typingText) {
     const phrases = [
-        'Data Scientist',
-        'Machine Learning Engineer',
-        'Data Analyst',
-        'Big Data Engineer',
-        'ML/AI Researcher',
-        'Analytics Specialist'
+        'Software Engineer',
+        'Full-Stack Developer',
+        'Backend Developer',
+        'Automation Engineer',
+        'Cloud Engineer',
+        'QA Automation Engineer'
     ];
 
     let phraseIndex = 0;
