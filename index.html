@@ -44,7 +44,7 @@
                 <span class="typing-text"></span>
                 <span class="cursor">|</span>
             </p>
-            <p class="hero-description">MSc Advanced Computer Science student with hands-on software engineering experience at Amazon. Specialized in building scalable systems, automation frameworks, and full-stack applications using modern technologies.</p>
+            <p class="hero-description">Software Engineer with strong foundations in Object-Oriented Programming, Computer Networks, and Database Management Systems. Experienced in building and testing backend and distributed systems using Java and Python, with hands-on exposure to system architecture, debugging, and reliability engineering.</p>
             <div class="hero-buttons">
                 <a href="#contact" class="btn btn-primary">Get In Touch</a>
                 <a href="#projects" class="btn btn-secondary">View Projects</a>
@@ -76,9 +76,9 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm an MSc Advanced Computer Science student at the University of Leicester with hands-on software engineering experience at Amazon. I specialize in building scalable automation frameworks, full-stack web applications, and distributed systems using modern technologies.</p>
-                    <p>My technical expertise includes Python and Java development, full-stack web development (React, Node.js), cloud computing (AWS), test automation, and API development. At Amazon, I engineered modular automation frameworks that reduced manual effort by 20+ hours/week and identified 50+ critical defects through systematic testing and analysis.</p>
-                    <p>Recognized with national innovation awards (1st place at ASPIRE-2K24, 2nd prize at NES Innovation Awards 2024) for AI-driven solutions. Selected for the Leicester 100 Leadership Programme, I'm passionate about solving complex technical challenges through clean code, system design, and innovative engineering solutions.</p>
+                    <p>Software Engineer and MSc Advanced Computer Science student at the University of Leicester with strong foundations in Object-Oriented Programming, Computer Networks, and Database Management Systems. Experienced in building and testing backend and distributed systems using Java and Python.</p>
+                    <p>At Amazon, I developed and optimized Python-based automation frameworks to test autonomous robotics software, improving test execution efficiency by ~20%. I designed system-level test cases for autonomous navigation, conducted regression and exploratory testing, and collaborated closely with software engineers to debug failures and improve release reliability.</p>
+                    <p>My expertise spans backend engineering, distributed systems, system design, and debugging & reliability engineering. Recognized with multiple awards including 1st place at ASPIRE-2K24 and Student of the Year. Selected for the Leicester 100 Leadership Programme, seeking software engineering roles where strong computer science fundamentals and scalable system design are valued.</p>
                 </div>
                 <div class="about-stats">
                     <div class="stat-item">
@@ -176,29 +176,54 @@
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
                 <!-- Project 1 - Distributed Whiteboard -->
-                <div class="project-card" data-category="web cloud">
+                <div class="project-card" data-category="web cloud distributed">
                     <div class="project-header">
                         <h3>Distributed Whiteboard Application</h3>
                         <div class="project-links">
                             <a href="https://github.com/lilavati-mhaske" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
-                    <p class="project-description">Built a real-time collaborative whiteboard using React, Node.js, and WebSocket protocol, enabling multi-user synchronization with Docker deployment and NGINX load balancing.</p>
+                    <p class="project-description">Designed and developed a distributed, real-time collaborative system from scratch, enabling multiple users to interact concurrently with low latency. Architected backend services deployed on AWS EC2 within a VPC.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">React</span>
                         <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">WebSocket</span>
-                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">WebSockets</span>
+                        <span class="tech-tag">Redis</span>
+                        <span class="tech-tag">AWS</span>
                         <span class="tech-tag">NGINX</span>
+                        <span class="tech-tag">Prometheus</span>
+                        <span class="tech-tag">Grafana</span>
                     </div>
                     <ul class="project-highlights">
-                        <li>Real-time multi-user synchronization using WebSocket protocol</li>
-                        <li>Containerized deployment with Docker for scalability</li>
-                        <li>Load balancing with NGINX for distributed system architecture</li>
+                        <li>Implemented Redis Pub/Sub for scalable, event-driven message propagation across distributed nodes with fault tolerance</li>
+                        <li>Integrated monitoring and observability using Prometheus, Grafana, and CloudWatch to track latency, throughput, and system health</li>
+                        <li>Conducted scalability, concurrency, and failure-mode testing, identifying bottlenecks and improving system reliability</li>
+                        <li>Used NGINX as a reverse proxy for traffic management and load distribution</li>
                     </ul>
                 </div>
 
-                <!-- Project 2 - COVID-19 Analytics -->
+                <!-- Project 2 - Super Market Billing System -->
+                <div class="project-card" data-category="backend database">
+                    <div class="project-header">
+                        <h3>Super Market Billing System</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/lilavati-mhaske" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Implemented object-oriented design to manage products, customers, billing logic, and transactions. Built core billing features with MySQL integration for data persistence.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">OOP</span>
+                    </div>
+                    <ul class="project-highlights">
+                        <li>Designed and integrated a MySQL relational database to store product details, pricing, and transaction history</li>
+                        <li>Built core billing features including item scanning, total cost calculation, invoice generation, and data persistence</li>
+                        <li>Applied exception handling and input validation to ensure system robustness and error-free transactions</li>
+                        <li>Followed Agile development practices, iterating on features and improving system reliability</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 - COVID-19 Analytics -->
                 <div class="project-card" data-category="data ml cloud">
                     <div class="project-header">
                         <h3>COVID-19 Big Data Analytics</h3>
@@ -235,23 +260,23 @@
                 <div class="competencies-grid">
                     <div class="competency-card">
                         <div class="competency-icon">💻</div>
-                        <h4>Full-Stack Development</h4>
-                        <p>React, Node.js, RESTful APIs, responsive web applications</p>
+                        <h4>Software Development</h4>
+                        <p>Object-oriented programming, data structures & algorithms, clean code practices</p>
                     </div>
                     <div class="competency-card">
                         <div class="competency-icon">🔧</div>
-                        <h4>Test Automation</h4>
-                        <p>Python frameworks, automated testing, CI/CD, quality assurance</p>
+                        <h4>Backend Engineering</h4>
+                        <p>Node.js, Express.js, RESTful APIs, HTTP/HTTPS, database design</p>
                     </div>
                     <div class="competency-card">
-                        <div class="competency-icon">☁️</div>
-                        <h4>Cloud & DevOps</h4>
-                        <p>AWS services, Docker, distributed systems, system design</p>
+                        <div class="competency-icon">🌐</div>
+                        <h4>Distributed Systems</h4>
+                        <p>System architecture, scalability, fault tolerance, message queuing</p>
                     </div>
                     <div class="competency-card">
-                        <div class="competency-icon">🤖</div>
-                        <h4>Data & AI Engineering</h4>
-                        <p>Machine learning, big data processing, analytics pipelines</p>
+                        <div class="competency-icon">🐛</div>
+                        <h4>Debugging & Reliability</h4>
+                        <p>Test-driven development, system monitoring, performance optimization</p>
                     </div>
                 </div>
             </div>
@@ -263,7 +288,49 @@
                     <div class="skill-bars">
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>Python (Advanced)</span>
+                                <span>Java</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>C & C++</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-book"></i> Computer Science Fundamentals</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Object-Oriented Programming (OOP)</span>
                                 <span class="skill-percentage">95%</span>
                             </div>
                             <div class="progress-bar">
@@ -272,7 +339,16 @@
                         </div>
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>Java</span>
+                                <span>Data Structures & Algorithms</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Computer Networks</span>
                                 <span class="skill-percentage">85%</span>
                             </div>
                             <div class="progress-bar">
@@ -281,97 +357,82 @@
                         </div>
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>JavaScript & TypeScript</span>
-                                <span class="skill-percentage">85%</span>
+                                <span>Database Management Systems (DBMS)</span>
+                                <span class="skill-percentage">90%</span>
                             </div>
                             <div class="progress-bar">
-                                <div class="progress" data-progress="85"></div>
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Operating Systems</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="80"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+                    <h3><i class="fas fa-laptop-code"></i> Backend & Web Technologies</h3>
                     <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Node.js & Express.js</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>RESTful APIs</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>HTTP/HTTPS Protocols</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="85"></div>
+                            </div>
+                        </div>
                         <div class="skill-bar">
                             <div class="skill-info">
                                 <span>React & Frontend Development</span>
-                                <span class="skill-percentage">88%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress" data-progress="88"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span>Node.js & Express</span>
                                 <span class="skill-percentage">85%</span>
                             </div>
                             <div class="progress-bar">
                                 <div class="progress" data-progress="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span>RESTful API Development</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress" data-progress="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span>HTML, CSS, JavaScript</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress" data-progress="90"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Databases & SQL</h3>
+                    <h3><i class="fas fa-database"></i> Databases</h3>
                     <div class="skill-bars">
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>Advanced SQL & Query Optimization</span>
+                                <span>SQL (MySQL, Oracle)</span>
                                 <span class="skill-percentage">90%</span>
                             </div>
                             <div class="progress-bar">
                                 <div class="progress" data-progress="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span>MySQL & PostgreSQL</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress" data-progress="85"></div>
                             </div>
                         </div>
                         <div class="skill-bar">
                             <div class="skill-info">
                                 <span>MongoDB & NoSQL</span>
-                                <span class="skill-percentage">80%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress" data-progress="80"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
-                            <div class="skill-info">
-                                <span>AWS (EC2, S3, Lambda, VPC)</span>
                                 <span class="skill-percentage">85%</span>
                             </div>
                             <div class="progress-bar">
@@ -380,7 +441,31 @@
                         </div>
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>Docker & Containerization</span>
+                                <span>Query Optimization & Database Design</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Infrastructure</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>AWS (EC2, VPC, S3, Lambda)</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>NGINX & Reverse Proxy</span>
                                 <span class="skill-percentage">80%</span>
                             </div>
                             <div class="progress-bar">
@@ -389,7 +474,7 @@
                         </div>
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>Distributed Systems & NGINX</span>
+                                <span>Redis (Pub/Sub, Caching)</span>
                                 <span class="skill-percentage">80%</span>
                             </div>
                             <div class="progress-bar">
@@ -466,16 +551,26 @@
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
                     <div class="skill-tags">
                         <span>Git & GitHub</span>
+                        <span>Linux</span>
+                        <span>CI/CD Pipelines</span>
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>Wireshark</span>
                         <span>VS Code</span>
-                        <span>Docker</span>
-                        <span>WebSocket</span>
-                        <span>REST APIs</span>
-                        <span>Jupyter</span>
-                        <span>Tableau</span>
-                        <span>Power BI</span>
+                        <span>IntelliJ IDEA</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Methodologies & Practices</h3>
+                    <div class="skill-tags">
+                        <span>Agile Development</span>
+                        <span>Test-Driven Development (TDD)</span>
+                        <span>System Design</span>
+                        <span>Code Review</span>
                     </div>
                 </div>
             </div>
