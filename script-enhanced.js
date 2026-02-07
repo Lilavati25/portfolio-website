@@ -394,7 +394,7 @@ const downloadCV = document.getElementById('downloadCV');
 if (downloadCV) {
     downloadCV.addEventListener('click', (e) => {
         e.preventDefault();
-        window.open('Lilavati Shivaji Mhaske Resume.pdf', '_blank');
+        window.open('Lilavati-Resume.pdf', '_blank');
         showNotification('Opening your CV...', 'success');
     });
 }
