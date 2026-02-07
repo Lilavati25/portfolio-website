@@ -76,26 +76,36 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Software Engineer and MSc Advanced Computer Science student at the University of Leicester with strong foundations in Object-Oriented Programming, Computer Networks, and Database Management Systems. Experienced in building and testing backend and distributed systems using Java and Python, with hands-on exposure to system architecture, debugging, and reliability engineering.</p>
-                    <p>At Amazon, I developed and optimized Python-based automation frameworks to test autonomous robotics software, improving test execution efficiency by ~20%. I designed and executed system-level test cases for autonomous navigation, precision movement, obstacle avoidance, and docking behaviours. I analysed inconsistent behaviour across simulation and CI pipeline environments using logs, metrics, and behavioural traces to improve system stability, and collaborated closely with software engineers to debug failures, validate fixes, and improve release reliability by reducing navigation failure rates.</p>
-                    <p>My expertise spans Software Development, Backend Engineering, Distributed Systems, System Design (Basic), and Debugging & Reliability Engineering. Recognized with multiple awards including First Prize in Software Development Methods Competition (ESTECO), 1st Place at ASPIRE-2K24 National Project Competition, 2nd Prize at NES Innovation Awards 2024, and Student of the Year Award. Selected for the University of Leicester's Leicester 100 Leadership Programme, seeking software engineering roles where strong computer science fundamentals and scalable system design are valued.</p>
+                    <p class="about-intro">MSc Computer Science student at the University of Leicester with expertise in <strong>Backend Engineering</strong>, <strong>Distributed Systems</strong>, and <strong>Test Automation</strong>.</p>
+                    <div class="highlight-box">
+                        <i class="fas fa-briefcase"></i>
+                        <p>Former QA Engineer at <strong>Amazon</strong>, improving robotics test automation efficiency by 20%</p>
+                    </div>
+                    <div class="highlight-box">
+                        <i class="fas fa-trophy"></i>
+                        <p>Award winner: ESTECO Software Competition, ASPIRE-2K24, NES Innovation Awards, Student of the Year</p>
+                    </div>
                 </div>
                 <div class="about-stats">
                     <div class="stat-item">
-                        <h3>6</h3>
-                        <p>Months at Amazon</p>
+                        <div class="stat-icon"><i class="fas fa-code"></i></div>
+                        <h3>5+</h3>
+                        <p>Major Projects</p>
                     </div>
                     <div class="stat-item">
-                        <h3>50+</h3>
-                        <p>Defects Identified</p>
+                        <div class="stat-icon"><i class="fas fa-building"></i></div>
+                        <h3>2</h3>
+                        <p>Internships</p>
                     </div>
                     <div class="stat-item">
-                        <h3>25+</h3>
-                        <p>Workflows Automated</p>
-                    </div>
-                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-trophy"></i></div>
                         <h3>4</h3>
-                        <p>Major Awards</p>
+                        <p>Awards Won</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>MSc</h3>
+                        <p>Student</p>
                     </div>
                 </div>
             </div>
@@ -172,10 +182,9 @@
                         <span class="tech-tag">REST APIs</span>
                     </div>
                     <ul class="project-highlights">
-                        <li>Architected complete web application with React frontend, FastAPI backend, and normalized MySQL schemas for user participation, vote aggregation, and result analytics</li>
-                        <li>Built secure RESTful APIs with comprehensive backend validation, exception handling, and logging to ensure data integrity and audit trails across all voting operations</li>
-                        <li>Designed scalable backend services following clean API principles, optimizing for real-world governance use cases including concurrent voting sessions</li>
-                        <li>Implemented role-based access control and session management to support different user types with appropriate data isolation</li>
+                        <li><i class="fas fa-check-circle"></i> Full-stack architecture: React + FastAPI + MySQL</li>
+                        <li><i class="fas fa-check-circle"></i> Secure RESTful APIs with validation & logging</li>
+                        <li><i class="fas fa-check-circle"></i> Role-based access control & session management</li>
                     </ul>
                 </div>
 
@@ -199,11 +208,10 @@
                         <span class="tech-tag">Grafana</span>
                     </div>
                     <ul class="project-highlights">
-                        <li>Built backend-heavy distributed system using Redis Pub/Sub for scalable, event-driven message propagation with fault tolerance and session persistence</li>
-                        <li>Implemented WebSocket-based real-time communication to synchronize drawing actions with sub-100ms latency for 50+ concurrent users</li>
-                        <li>Deployed on AWS EC2 within VPC using NGINX as reverse proxy for load balancing, SSL termination, and traffic management</li>
-                        <li>Integrated Prometheus, Grafana, and CloudWatch observability stack to monitor system health, track latency distributions, and identify performance bottlenecks</li>
-                        <li>Conducted failure-mode testing including Redis failover, network partitions, and sudden disconnects to improve reliability and recovery mechanisms</li>
+                        <li><i class="fas fa-check-circle"></i> Redis Pub/Sub + WebSockets: sub-100ms latency for 50+ users</li>
+                        <li><i class="fas fa-check-circle"></i> AWS deployment: EC2, VPC, NGINX reverse proxy</li>
+                        <li><i class="fas fa-check-circle"></i> Observability: Prometheus, Grafana, CloudWatch</li>
+                        <li><i class="fas fa-check-circle"></i> Failure-mode testing: Redis failover, network partitions</li>
                     </ul>
                 </div>
 
@@ -223,10 +231,10 @@
                         <span class="tech-tag">CI/CD</span>
                     </div>
                     <ul class="project-highlights">
-                        <li>Developed modular automation frameworks and test scripts for critical navigation features (VP Docking, Smart Rotation, Body Directed Move, Fake Obstacle Recovery), improving test coverage and execution efficiency by ~20%</li>
-                        <li>Designed comprehensive test cases covering edge cases, sensor failures, environmental uncertainties, and recovery behaviors in simulation and CI pipeline environments</li>
-                        <li>Performed root-cause analysis on simulation-vs-hardware mismatches using logs and behavioral traces, identifying 50+ defects impacting navigation reliability</li>
-                        <li>Collaborated with software engineers to validate fixes, refine test strategies, and reduce navigation failure rates for production robot fleets</li>
+                        <li><i class="fas fa-check-circle"></i> Python automation: 20% efficiency improvement</li>
+                        <li><i class="fas fa-check-circle"></i> Tested VP Docking, Smart Rotation, Obstacle Recovery</li>
+                        <li><i class="fas fa-check-circle"></i> Identified 50+ defects through root-cause analysis</li>
+                        <li><i class="fas fa-check-circle"></i> Production robotics testing in simulation & CI/CD</li>
                     </ul>
                 </div>
 
@@ -246,10 +254,10 @@
                         <span class="tech-tag">PyTorch</span>
                     </div>
                     <ul class="project-highlights">
-                        <li>Trained and fine-tuned YOLOv8 object detection model on custom-labeled dataset of aerial river images, achieving high accuracy in identifying pollution hotspots</li>
-                        <li>Developed end-to-end pipeline including data preprocessing, augmentation, model training, evaluation, and inference optimization for real-time detection</li>
-                        <li>Designed quantification algorithms to estimate pollution spread and severity from bounding box predictions, providing actionable insights for environmental monitoring</li>
-                        <li>Demonstrated practical impact enabling faster pollution source identification compared to manual inspection, supporting environmental remediation efforts</li>
+                        <li><i class="fas fa-check-circle"></i> YOLOv8 trained on custom aerial imagery dataset</li>
+                        <li><i class="fas fa-check-circle"></i> End-to-end ML pipeline: preprocessing to inference</li>
+                        <li><i class="fas fa-check-circle"></i> Pollution quantification algorithms for monitoring</li>
+                        <li><i class="fas fa-check-circle"></i> Faster detection vs manual inspection methods</li>
                     </ul>
                 </div>
 
@@ -269,9 +277,9 @@
                         <span class="tech-tag">GitHub Pages</span>
                     </div>
                     <ul class="project-highlights">
-                        <li>Designed and built from scratch using modern frontend technologies with emphasis on user experience, accessibility, and mobile responsiveness</li>
-                        <li>Implemented dark mode toggle, smooth scrolling, animated skill progress bars, and interactive project filtering for improved user engagement</li>
-                        <li>Optimized for performance with lazy loading, minimal dependencies, and efficient asset delivery, achieving fast load times across devices</li>
+                        <li><i class="fas fa-check-circle"></i> Modern responsive design with dark mode</li>
+                        <li><i class="fas fa-check-circle"></i> Smooth animations & interactive features</li>
+                        <li><i class="fas fa-check-circle"></i> Performance optimized for fast loading</li>
                     </ul>
                 </div>
             </div>
