@@ -156,41 +156,15 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
-                <!-- Project 1 - Distributed Whiteboard -->
-                <div class="project-card" data-category="web cloud distributed">
+                <!-- Project 1 - MSLR Platform -->
+                <div class="project-card" data-category="backend database web fullstack">
                     <div class="project-header">
-                        <h3>Distributed Whiteboard Application</h3>
+                        <h3>My Shangri-La Referendum (MSLR) Platform</h3>
                         <div class="project-links">
                             <a href="https://github.com/lilavati-mhaske" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
-                    <p class="project-description">Designed and developed a distributed, real-time collaborative system from scratch, enabling multiple users to interact concurrently with low latency. Architected backend services deployed on AWS EC2 within a VPC.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">WebSockets</span>
-                        <span class="tech-tag">Redis</span>
-                        <span class="tech-tag">AWS</span>
-                        <span class="tech-tag">NGINX</span>
-                        <span class="tech-tag">Prometheus</span>
-                        <span class="tech-tag">Grafana</span>
-                    </div>
-                    <ul class="project-highlights">
-                        <li>Implemented Redis Pub/Sub for scalable, event-driven message propagation across distributed nodes with fault tolerance</li>
-                        <li>Integrated monitoring and observability using Prometheus, Grafana, and CloudWatch to track latency, throughput, and system health</li>
-                        <li>Conducted scalability, concurrency, and failure-mode testing, identifying bottlenecks and improving system reliability</li>
-                        <li>Used NGINX as a reverse proxy for traffic management and load distribution</li>
-                    </ul>
-                </div>
-
-                <!-- Project 2 - Voting Platform -->
-                <div class="project-card" data-category="backend database web">
-                    <div class="project-header">
-                        <h3>Integrity-Driven Voting Platform</h3>
-                        <div class="project-links">
-                            <a href="https://github.com/lilavati-mhaske" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <p class="project-description">Designed and developed a full-stack web platform enabling structured, data-driven decision-making through digital referendums and surveys. Built secure RESTful APIs to manage users, votes, and results, ensuring data integrity, consistency, and correctness.</p>
+                    <p class="project-description">Full-stack voting platform enabling structured digital decision-making through secure referendums and surveys</p>
                     <div class="project-tech">
                         <span class="tech-tag">React</span>
                         <span class="tech-tag">FastAPI</span>
@@ -198,10 +172,106 @@
                         <span class="tech-tag">REST APIs</span>
                     </div>
                     <ul class="project-highlights">
-                        <li>Designed and normalized relational database schemas in MySQL to support user participation, vote aggregation, and result analytics</li>
-                        <li>Implemented backend validation, exception handling, logging, and error reporting to improve system reliability</li>
-                        <li>Focused on scalable architecture, clean API design, and maintainable backend services aligned with real-world governance use cases</li>
-                        <li>Built secure RESTful APIs ensuring data integrity, consistency, and correctness across all operations</li>
+                        <li>Architected complete web application with React frontend, FastAPI backend, and normalized MySQL schemas for user participation, vote aggregation, and result analytics</li>
+                        <li>Built secure RESTful APIs with comprehensive backend validation, exception handling, and logging to ensure data integrity and audit trails across all voting operations</li>
+                        <li>Designed scalable backend services following clean API principles, optimizing for real-world governance use cases including concurrent voting sessions</li>
+                        <li>Implemented role-based access control and session management to support different user types with appropriate data isolation</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 - Real-Time Collaborative Whiteboard -->
+                <div class="project-card" data-category="distributed backend cloud systems">
+                    <div class="project-header">
+                        <h3>Real-Time Collaborative Whiteboard (Private Cloud)</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/lilavati-mhaske" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Distributed real-time collaboration system enabling multiple users to interact concurrently with low-latency synchronization</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Redis</span>
+                        <span class="tech-tag">WebSockets</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">NGINX</span>
+                        <span class="tech-tag">Prometheus</span>
+                        <span class="tech-tag">Grafana</span>
+                    </div>
+                    <ul class="project-highlights">
+                        <li>Built backend-heavy distributed system using Redis Pub/Sub for scalable, event-driven message propagation with fault tolerance and session persistence</li>
+                        <li>Implemented WebSocket-based real-time communication to synchronize drawing actions with sub-100ms latency for 50+ concurrent users</li>
+                        <li>Deployed on AWS EC2 within VPC using NGINX as reverse proxy for load balancing, SSL termination, and traffic management</li>
+                        <li>Integrated Prometheus, Grafana, and CloudWatch observability stack to monitor system health, track latency distributions, and identify performance bottlenecks</li>
+                        <li>Conducted failure-mode testing including Redis failover, network partitions, and sudden disconnects to improve reliability and recovery mechanisms</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 - Amazon Robotics QA Automation -->
+                <div class="project-card" data-category="automation testing backend systems">
+                    <div class="project-header">
+                        <h3>Amazon Robotics QA Automation</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/lilavati-mhaske" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Python-based test automation framework for autonomous robot navigation features in production robotics systems</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">unittest</span>
+                        <span class="tech-tag">Simulation Testing</span>
+                        <span class="tech-tag">CI/CD</span>
+                    </div>
+                    <ul class="project-highlights">
+                        <li>Developed modular automation frameworks and test scripts for critical navigation features (VP Docking, Smart Rotation, Body Directed Move, Fake Obstacle Recovery), improving test coverage and execution efficiency by ~20%</li>
+                        <li>Designed comprehensive test cases covering edge cases, sensor failures, environmental uncertainties, and recovery behaviors in simulation and CI pipeline environments</li>
+                        <li>Performed root-cause analysis on simulation-vs-hardware mismatches using logs and behavioral traces, identifying 50+ defects impacting navigation reliability</li>
+                        <li>Collaborated with software engineers to validate fixes, refine test strategies, and reduce navigation failure rates for production robot fleets</li>
+                    </ul>
+                </div>
+
+                <!-- Project 4 - River Pollution Detection -->
+                <div class="project-card" data-category="ml ai computer-vision">
+                    <div class="project-header">
+                        <h3>River Pollution Detection using Aerial Imagery</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/lilavati-mhaske" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Computer vision system using YOLOv8 to detect and quantify polluted regions from drone-captured river imagery</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">YOLOv8</span>
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">PyTorch</span>
+                    </div>
+                    <ul class="project-highlights">
+                        <li>Trained and fine-tuned YOLOv8 object detection model on custom-labeled dataset of aerial river images, achieving high accuracy in identifying pollution hotspots</li>
+                        <li>Developed end-to-end pipeline including data preprocessing, augmentation, model training, evaluation, and inference optimization for real-time detection</li>
+                        <li>Designed quantification algorithms to estimate pollution spread and severity from bounding box predictions, providing actionable insights for environmental monitoring</li>
+                        <li>Demonstrated practical impact enabling faster pollution source identification compared to manual inspection, supporting environmental remediation efforts</li>
+                    </ul>
+                </div>
+
+                <!-- Project 5 - Portfolio Website -->
+                <div class="project-card" data-category="web frontend ui">
+                    <div class="project-header">
+                        <h3>Professional Portfolio Website</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Lilavati25/portfolio-website" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-description">Professional portfolio showcasing projects, skills, and experience with clean UI and responsive design</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">GitHub Pages</span>
+                    </div>
+                    <ul class="project-highlights">
+                        <li>Designed and built from scratch using modern frontend technologies with emphasis on user experience, accessibility, and mobile responsiveness</li>
+                        <li>Implemented dark mode toggle, smooth scrolling, animated skill progress bars, and interactive project filtering for improved user engagement</li>
+                        <li>Optimized for performance with lazy loading, minimal dependencies, and efficient asset delivery, achieving fast load times across devices</li>
                     </ul>
                 </div>
             </div>
